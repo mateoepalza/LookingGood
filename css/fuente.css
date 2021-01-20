@@ -1,0 +1,16 @@
+@font-face{
+  font-family:aliensandcows ;
+  src: url(../fuente/aliensandcows.ttf);
+}
+@font-face {
+  font-family: euro;
+  src:url(../fuente/eurostyle.ttf);
+}
+@font-face {
+  font-family: helveticas;
+  src:url(../fuente/Helvetica.otf);
+}
+@font-face {
+  font-family: fetish2;
+  src:url(../fuente/fetish2.ttf);
+}

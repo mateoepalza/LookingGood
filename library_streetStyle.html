@@ -1,0 +1,61 @@
+<!DOCTYPE html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>StreetStyle</title>
+<link rel="stylesheet" href="css/library_streetStyle.css">
+<link rel="stylesheet" type="text/css" href="css/fuente.css">
+</head>
+
+<body>
+<div class="main">
+	<div id="nava">
+
+		<a href="index.html"><img src="images/looking_cool_white.png" style="width:150px;"></a>
+		<a href="index.html">Home</a>
+		<a href="#">Get in touch</a>
+	</div>
+		<div class="slides">
+
+			<div id="d1" class="bg"></div>
+			<div id="d2" class="bg"></div>
+			<div id="d3" class="bg"></div>
+			<div id="d4" class="bg"></div>
+			<div id="d5" class="bg"></div>
+			<div id="d6" class="bg"></div>
+			<div id="d7" class="bg"></div>
+			<div id="d8" class="bg"></div>
+			<div id="d9" class="bg"></div>
+			<div id="d10" class="bg"></div>
+			<div id="d11" class="bg"></div>
+			<div id="d12" class="bg"></div>
+
+		</div>
+	</div>
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/jquery.slides.js"></script>
+    <script>
+    $(function(){
+  $(".slides").slidesjs({
+    play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "slide",
+        // [string] Can be either "slide" or "fade".
+      interval: 3000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
+  });
+});
+    </script>
+
+</body>
+</html>
